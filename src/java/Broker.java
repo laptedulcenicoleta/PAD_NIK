@@ -6,7 +6,6 @@ public class Broker extends Thread {
 
     private ServerSocket serverSocket;
 
-
     public Broker(int port) throws IOException {
         serverSocket = new ServerSocket(port);
         serverSocket.setSoTimeout(100000);
